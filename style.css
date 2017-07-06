@@ -1,0 +1,46 @@
+body {
+  background: url('naturebackground.jpeg') no-repeat;
+  height: 800px;
+  max-width: 100%;
+}
+
+
+ul {
+  min-width: 1300px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul li{
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 2px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  border-radius: 4px;
+}
+
+ul li:hover{
+  background: gold;
+}
+
+.logo_box {
+  position: absolute;
+  color: white;
+  top: 50px;
+  border: 1px solid blue;
+  background-color: #1c1919;
+  height: 100px;
+  min-width: 100%;
+  text-align: center;
+  line-height: 50px
+  /*add company logo*/
+
+}
