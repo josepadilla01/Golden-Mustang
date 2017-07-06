@@ -1,11 +1,11 @@
 body {
-  background: url('naturebackground.jpeg') no-repeat;
+  /*background: url('naturebackground.jpeg') no-repeat;*/
+  background-color: white;
   height: 800px;
   max-width: 100%;
 }
 
-
-ul {
+#nav_bar {
   min-width: 1300px;
   margin: 0px;
   padding: 0px;
@@ -28,7 +28,7 @@ ul li{
 }
 
 ul li:hover{
-  background: gold;
+  background: green;
 }
 
 .logo_box {
@@ -39,8 +39,10 @@ ul li:hover{
   background-color: #1c1919;
   height: 100px;
   min-width: 100%;
-  text-align: center;
-  line-height: 50px
   /*add company logo*/
+}
 
+#logo_left_content{
+  text-align: left;
+  font-family: monospace;
 }
