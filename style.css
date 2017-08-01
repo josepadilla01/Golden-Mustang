@@ -2,15 +2,24 @@ body {
   background-color: white;
 }
 
-#nav_bar {
+#nav-container{
+  min-width: 90%;
+}
+
+#nav-container img{
+  width: 200px;
+  height: 200px;
+}
+
+#nav-bar {
   min-width: 1300px;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
-ul li{
-  float: left;
+#nav-bar ul li{
+  float: right;
   width: 100px;
   height: 30px;
   background-color: white;
@@ -24,12 +33,12 @@ ul li{
   border-radius: 0px;
 }
 
-ul li:hover{
+#nav-bar ul li:hover{
   color: white;
   background: black;
 }
 
-.logo_box {
+.logo-box {
   position: fixed;
   color: white;
   top: 55px;
@@ -44,7 +53,7 @@ ul li:hover{
   /*add company logo*/
 }
 
-#logo_left_content p{
+#logo-left-content p{
   margin-top: 25px;
   margin-left: 5px;
   font-family: serif;
